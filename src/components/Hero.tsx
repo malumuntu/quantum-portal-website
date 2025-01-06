@@ -6,7 +6,7 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-black/40 z-10"></div>
       <div className="container mx-auto relative z-20">
         <img 
-          src="/lovable-uploads/febfaa71-b94c-4b0d-82fb-6d442ba01651.png" 
+          src="/lovable-uploads/1129422b-d3ec-4f2d-97bd-ae4463b5a455.png" 
           alt="QuantumGaze.AI Logo" 
           className="w-64 md:w-80 mx-auto mb-8 animate-fade-in"
         />
