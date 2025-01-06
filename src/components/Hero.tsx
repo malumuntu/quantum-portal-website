@@ -5,11 +5,6 @@ export const Hero = () => {
     <div className="min-h-[80vh] flex flex-col justify-center items-center text-center px-4 bg-gradient-to-br from-primary via-secondary to-accent relative overflow-hidden">
       <div className="absolute inset-0 bg-black/40 z-10"></div>
       <div className="container mx-auto relative z-20">
-        <img 
-          src="/lovable-uploads/1129422b-d3ec-4f2d-97bd-ae4463b5a455.png" 
-          alt="QuantumGaze.AI Logo" 
-          className="w-64 md:w-80 mx-auto mb-8 animate-fade-in"
-        />
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
           Reduce Costs with AI-Powered Solutions
         </h1>

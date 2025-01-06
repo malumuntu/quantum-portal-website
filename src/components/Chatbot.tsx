@@ -43,7 +43,7 @@ export const Chatbot = () => {
         isOpen ? "translate-y-0 opacity-100" : "translate-y-full opacity-0 pointer-events-none"
       )}>
         <div className="flex justify-between items-center mb-4">
-          <h3 className="font-semibold text-lg">QuantumGaze AI Assistant</h3>
+          <h3 className="font-semibold text-lg">AI Assistant</h3>
           <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
             <X size={20} />
           </Button>
