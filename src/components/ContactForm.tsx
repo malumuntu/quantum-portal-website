@@ -25,7 +25,11 @@ export const ContactForm = () => {
     <div id="contact" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-white mb-12">Contact Us</h2>
+          <h2 className="text-3xl font-bold text-center text-white mb-6">Contact Us</h2>
+          <div className="text-center text-gray-300 mb-8">
+            <p>Visit us at: <a href="https://astrelis.co.uk" className="text-blue-400 hover:text-blue-300">astrelis.co.uk</a></p>
+            <p>Email: <a href="mailto:Sales@astrelis.co.uk" className="text-blue-400 hover:text-blue-300">Sales@astrelis.co.uk</a></p>
+          </div>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <Input

@@ -6,12 +6,12 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-black/40 z-10"></div>
       <div className="container mx-auto relative z-20">
         <img 
-          src="/lovable-uploads/1129422b-d3ec-4f2d-97bd-ae4463b5a455.png" 
-          alt="Logo" 
+          src="/lovable-uploads/c6210383-59ff-4250-8c27-06f02d642153.png" 
+          alt="Astrelis Logo" 
           className="w-64 md:w-80 mx-auto mb-8 animate-fade-in"
         />
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
-          Reduce Costs with AI-Powered Solutions
+          Welcome to Astrelis
         </h1>
         <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto animate-fade-in">
           Deploy intelligent AI agents to streamline your business operations and significantly reduce operational costs.
