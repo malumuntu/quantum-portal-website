@@ -6,17 +6,17 @@ const testimonials = [
   {
     name: "Sarah Chen",
     role: "CTO, TechVision Inc",
-    content: "QuantumGaze.AI transformed our data processing capabilities. Their AI solutions reduced our analysis time by 75%.",
+    content: "Astrelis transformed our data processing capabilities. Their AI solutions reduced our analysis time by 75%.",
   },
   {
     name: "Michael Rodriguez",
     role: "CEO, Future Systems",
-    content: "The team's expertise in quantum computing and AI is unmatched. They delivered beyond our expectations.",
+    content: "The team's expertise in AI is unmatched. They delivered beyond our expectations.",
   },
   {
     name: "Emma Thompson",
     role: "Director of Innovation, GlobalTech",
-    content: "Working with QuantumGaze.AI was a game-changer for our business. Their solutions are innovative and effective.",
+    content: "Working with Astrelis was a game-changer for our business. Their solutions are innovative and effective.",
   },
 ];
 
