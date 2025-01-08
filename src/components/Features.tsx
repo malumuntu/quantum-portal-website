@@ -1,31 +1,38 @@
 import { Bot, TrendingDown, Zap, BarChart } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { useNavigate } from "react-router-dom";
 
 export const Features = () => {
+  const navigate = useNavigate();
+  
   const features = [
     {
       icon: <Bot className="w-12 h-12 text-primary" />,
       title: "AI Agents Deployment",
       description: "Custom AI agents designed to automate your specific business processes",
       image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+      path: "/ai-agents"
     },
     {
       icon: <TrendingDown className="w-12 h-12 text-primary" />,
       title: "Cost Reduction",
       description: "Significantly reduce operational costs through intelligent automation",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      path: "/cost-reduction"
     },
     {
       icon: <Zap className="w-12 h-12 text-primary" />,
       title: "Enhanced Efficiency",
       description: "Streamline workflows and boost productivity with AI-powered solutions",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      path: "/enhanced-efficiency"
     },
     {
       icon: <BarChart className="w-12 h-12 text-primary" />,
       title: "Data-Driven Insights",
       description: "Make informed decisions with advanced analytics and reporting",
       image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334",
+      path: "/data-insights"
     },
   ];
 
@@ -37,7 +44,11 @@ export const Features = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
+            <Card 
+              key={index} 
+              className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer"
+              onClick={() => navigate(feature.path)}
+            >
               <div className="aspect-video w-full overflow-hidden">
                 <img
                   src={feature.image}
