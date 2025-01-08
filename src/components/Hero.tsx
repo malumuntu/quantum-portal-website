@@ -16,7 +16,7 @@ export const Hero = () => {
         </div>
         <div className="container mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
-            Welcome to Astrelis
+            Welcome
           </h1>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto animate-fade-in">
             Deploy intelligent AI agents to streamline your business operations and significantly reduce operational costs.
