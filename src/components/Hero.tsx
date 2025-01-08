@@ -5,11 +5,13 @@ export const Hero = () => {
     <div className="min-h-[80vh] flex flex-col justify-center items-center text-center px-4 bg-gradient-to-br from-primary via-secondary to-accent relative overflow-hidden">
       <div className="absolute inset-0 bg-black/40 z-10"></div>
       <div className="container mx-auto relative z-20">
-        <img 
-          src="/lovable-uploads/c6210383-59ff-4250-8c27-06f02d642153.png" 
-          alt="Astrelis Logo" 
-          className="w-64 md:w-80 mx-auto mb-8 animate-fade-in"
-        />
+        <div className="bg-white rounded-2xl p-6 inline-block mb-8">
+          <img 
+            src="/lovable-uploads/c6210383-59ff-4250-8c27-06f02d642153.png" 
+            alt="Astrelis Logo" 
+            className="w-64 md:w-80 mx-auto animate-fade-in"
+          />
+        </div>
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
           Welcome to Astrelis
         </h1>
